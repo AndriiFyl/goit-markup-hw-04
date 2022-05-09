@@ -245,6 +245,39 @@ img {
     margin-right: 30px;
 }
 
+.item-values::before {
+    content: "";
+     height: 120px;
+     margin-bottom: 30px;
+     border-radius: 4px;
+     background-color: #F5F4FA;
+    display: block;
+     background-size: auto;
+    background-position: center;
+     background-repeat: no-repeat;
+}
+
+.item-values.antenna::before {
+    background-image: url(../images/antenna\ 1.svg);
+    
+
+}
+
+.item-values.clock::before {
+    background-image: url(../images/clock\ 1.svg);
+}
+
+.item-values.diagram::before {
+    background-image: url(../images/diagram\ 1.svg);
+       
+}
+
+
+.item-values.astronaut::before {
+    background-image: url(../images/astronaut\ 1.svg);
+        
+}
+
 .item-values:nth-child(4n) {
     margin-right: 0;
 }
@@ -274,12 +307,13 @@ img {
 
  .section-doing {
      padding-bottom: 94px;
+     text-align: center;
  }
 
  .heading-section {
     margin-top: 0;
     margin-bottom: 50px;
-    text-align: center;
+    
 
     font-weight: 700;
     font-size: 36px;
@@ -334,6 +368,39 @@ img {
     flex-wrap: wrap;
  }
 
+ 
+
+ .links {
+     margin-right: 10px;
+     display: inline-block;
+     width: 44px;
+     height: 44px;
+     background-size: auto;
+     background-repeat: no-repeat;
+     background-position: center;
+     /* background-color: teal; */
+     border-radius: 50%;
+     cursor: pointer;
+     
+ }
+
+ .inst {
+ background-image: url(../images/instagram\ 2.svg);
+ }
+
+ .twit{
+background-image: url(../images/twitter\ 1.svg);
+ }
+
+ .face {
+background-image: url(../images/facebook\ 1.svg);
+ }
+
+ .lin {
+background-image: url(../images/linkedin\ 1.svg);
+ }
+ 
+
  .team-info {
      padding-top: 30px;
      padding-bottom: 30px;
@@ -373,7 +440,28 @@ img {
     text-decoration: none;
 }
 
-/* Контакты */
+
+
+/* ____________________
+
+Постоянные клиенты
+
+_____________________ */
+
+.section.clients {
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+
+/* ____________________
+
+Контакты
+
+_______________________ */
 
 .adress {
     font-style: normal;
