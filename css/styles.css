@@ -175,7 +175,11 @@ img {
 }
 
 
- /* Секция герой */
+/* ____________________________
+
+Герой
+
+_________________________ */
 
  .section.hero {
      max-width: 1600px;
@@ -227,7 +231,11 @@ img {
  }
 
 
- /* Наши достоинства */
+ /* ___________________________
+
+ Наши достоинства
+
+ ___________________________ */
 
  .values-section {
      padding-top: 94px;
@@ -301,7 +309,11 @@ img {
  }
 
 
- /* Чем мы занимаемся */
+/* _______________________________
+
+Чем мы занимаемся
+
+_______________________________ */
 
 
 
@@ -343,7 +355,14 @@ img {
 
 
 
- /* Наша команда */
+
+/* ________________________
+
+Наша команда
+
+________________________ */
+
+
 .section.team {
     text-align: center;
     padding-top: 94px;
@@ -421,13 +440,89 @@ background-image: url(../images/linkedin\ 1.svg);
     color: var(--secondary-text-color);
  }
 
- /* Footer */
+
+
+ /* ____________________
+
+Постоянные клиенты
+
+_____________________ */
+
+ .section.clients {
+     text-align: center;
+     padding-top: 94px;
+     padding-bottom: 94px;
+
+ }
+
+
+ .list.clients {
+     display: flex;
+
+ }
+
+ .item.clients {
+     display: block;
+     margin-right: 30px;
+     /* width: 170px;
+     height: 92px; */
+     /* background-color: #2196F3; */
+ }
+
+ .item.clients:last-child {
+     margin-right: 0;
+ }
+
+ .link.clients {
+     display: inline-block;
+     width: 170px;
+    height: 92px;
+    
+ }
+
+ .link.clients.first {
+     background-image: url(../images/Client\ 1.svg);
+ }
+
+ .link.clients.second {
+     background-image: url(../images/Client\ 2.svg);
+ }
+
+ .link.clients.third {
+     background-image: url(../images/Client\ 3.svg);
+ }
+
+ .link.clients.forth {
+     background-image: url(../images/Client\ 4.svg);
+ }
+
+
+
+ .link.clients.fifth {
+     background-image: url(../images/Client\ 5.svg);
+ }
+
+ .link.clients.seexs {
+     background-image: url(../images/Client\ 6.svg);
+ }
+
+
+
+ /* _________________________
+
+ Футер
+
+ _________________________ */
+
  .footer.section {
     padding-top: 60px;
     padding-bottom: 60px;
      background-color: var(--secondary-background-color);
  }
 
+ .container.footer {
+     display: flex;
+ }
  
 .logo-footer {
     display: inline-block;
@@ -438,20 +533,6 @@ background-image: url(../images/linkedin\ 1.svg);
     line-height: 1.2;
     color: #FFFFFF;
     text-decoration: none;
-}
-
-
-
-/* ____________________
-
-Постоянные клиенты
-
-_____________________ */
-
-.section.clients {
-    text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 
@@ -490,7 +571,83 @@ _______________________ */
     margin-bottom: 9px;
 }
 
-/* Страница Портфолио */
+
+.box-networks {
+    margin-top: 12px;
+    margin-left: 70px;
+    
+    
+}
+.title.networks {
+    margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.list.networks {
+    display: inline-flex;
+}
+
+.item.networks {
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.item.networks:hover,
+.item.networks:focus {
+    background-color: #2196F3;
+}
+
+
+.item.networks:last-child{
+    margin-right: 0;
+    
+
+    
+}
+
+.link.networks::before {
+        display: block;
+        content: "";
+        width: 44px;
+        height: 44px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        /* background-color: rgba(255, 255, 255, 0.1); */
+        /* border-radius: 50%; */
+        cursor: pointer;
+}
+
+
+
+.link.networks.insta::before {
+    background-image:url(../images/instagram-footer.svg);
+}
+
+.link.networks.twitt::before {
+    background-image: url(../images/twitter-footer.svg);
+}
+
+.link.networks.fac::before {
+    background-image: url(../images/facebook-footer.svg);
+}
+
+.link.networks.li::before {
+    background-image: url(../images/linkedin-footer.svg);
+}
+
+
+
+/* ______________________________
+
+ПОРТФОЛИО
+
+______________________________ */
 
 .section.portfolio {
     padding-top: 94px;
