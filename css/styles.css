@@ -257,8 +257,7 @@ _________________________ */
 .icon-values {
    width: 70px;
    height: 70px; 
-    
-    
+      
 }
 
 
@@ -384,6 +383,39 @@ ________________________ */
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    margin-bottom: 16px;
+ }
+
+ .list.links {
+     display: flex;
+     justify-content: center;
+ }
+
+ .link.network {
+     display: block;
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+ }
+
+ .link.network:hover,
+ .link.network:hover {
+     background-color: #2196F3;
+ }
+
+ .item.social-networks {
+     margin-right: 10px;
+ }
+
+ .icon-links {
+     fill:#AFB1B8;
+     width: 20px;
+     height: 20px;
+ }
+
+ .icon-links:hover {
+     fill: #FFFFFF;
+
  }
 
 
@@ -403,18 +435,43 @@ _____________________ */
 
  .list.clients {
      display: flex;
-
+     justify-content: center;
  }
 
- .item.clients {
+ .link {
      display: block;
-     margin-right: 30px;
  }
 
- .item.clients:last-child {
+ .item-clients {
+    display: flex;
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;  
+    align-items: center;
+    justify-content: center;
+ }
+
+
+
+ .item-clients:last-child {
      margin-right: 0;
+    
+    
  }
 
+.section.clients .link {
+    display: block;
+}
+
+ .icon-clients {
+     display: block;
+    width: 106px;
+    height: 60px;
+    align-items: center;
+
+ }
 
 
  /* _________________________
@@ -498,7 +555,16 @@ _______________________ */
     display: inline-flex;
 }
 
+.footer.section .social-networks {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
 
+.footer.section .icon-links {
+    fill:#FFFFFF;
+}
 
 
 /* ______________________________
